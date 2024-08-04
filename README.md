@@ -1,5 +1,5 @@
 # 💫 Hi, I'm Rahul:
-<br>🔭 I’m currently working as a Software Engineer @Rakuten Symphony.<br>🌱 I’m currently learning Spring-Boot | Kubernetes.<br>👯 I’m looking to collaborate on Java | Spring-Boot | Back-end Projects.<br>💬 Ask me about Java | Spring-Boot | Cloud.<br>📫 How to reach me: rahulojha1097@gmail.com.<br>⚡ Fun fact: I'm a dedicated vegetarian Foodie and love exploring diverse cuisines around the world. 
+<br>🔭 I’m currently working as a Senior Software Engineer I @Rakuten India.<br>🌱 I’m currently learning Spring-Boot | Kubernetes.<br>👯 I’m looking to collaborate on Java | Spring-Boot | Back-end Projects.<br>💬 Ask me about Java | Spring-Boot | Cloud.<br>📫 How to reach me: rahulojha1097@gmail.com.<br>⚡ Fun fact: I'm a dedicated vegetarian Foodie and love exploring diverse cuisines around the world. 
 
 
 ## 🌐 Socials:
