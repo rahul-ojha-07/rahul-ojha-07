@@ -228,7 +228,7 @@ header {
 }
 
 .cta-button:hover {
-    background-color: #009C9B; /* Darker teal on hover */
+    background-color: #e74c3c; /* Darker teal on hover */
     color: #FFFFFF; /* White text on hover */
 }
 
@@ -577,7 +577,7 @@ header {
 }
 
 .skills-list li:hover {
-    background-color: #009C9B; /* Darker teal on hover */
+    background-color: #e74c3c; /* Darker teal on hover */
     color: #FFFFFF;
 }
 
