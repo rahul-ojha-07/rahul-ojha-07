@@ -64,6 +64,9 @@ export default {
                 setTimeout(() => {
                     this.messageSent = false;
                 }, 10000);
+                console.log(serviceID)
+                console.log(templateID);
+                console.log(userID);
             } catch (error) {
                 console.error('Failed to send message:', error);
                 alert('Error sending message, please try again.');
