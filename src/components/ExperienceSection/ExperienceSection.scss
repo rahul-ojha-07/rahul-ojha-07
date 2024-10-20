@@ -1,0 +1,136 @@
+@import "../../styles/variables";
+.experience-section {
+    background: var(--background-color);
+    color: var(--text-color);
+    padding: 4rem 2rem;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px var(--box-shadow-color);
+    max-width: 2000px;
+    margin: 4rem auto;
+    width: 90%;
+}
+
+.experience-content h2 {
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 2rem 0;
+    position: relative;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+.experience-content-wrapper {
+    display: flex;
+    align-items: center; 
+    gap: 1rem;
+    width: 100%;
+    margin-left: 40px; 
+}
+
+.experience-icon {
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 10px var(--box-shadow-color-2);
+    flex-shrink: 0;
+    
+}
+
+
+.experience-item::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--primary-color);
+}
+
+.experience-details {
+    text-align: left;
+    flex-grow: 1;
+}
+
+.experience-details h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    margin-top: 0; 
+}
+
+.experience-details .date {
+    font-style: italic;
+    color: var(--grey-text-color);
+    margin-bottom: 1rem;
+}
+
+.experience-details p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+.achievements {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 1rem 0;
+    color: var(--text-color);
+}
+
+.achievements li {
+    margin-bottom: 0.5rem;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.skill {
+    background-color: var(--primary-color);
+    color: var(--button-text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.skill:hover {
+    background-color: var(--hover-color);
+}
+
+
+@media (max-width: 768px) {
+    .experience-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .experience-item::before {
+        left: 0;
+    }
+
+    .experience-content-wrapper {
+        margin-left: 20px;
+    }
+}
+
+
+

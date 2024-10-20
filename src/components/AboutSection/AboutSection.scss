@@ -1,0 +1,74 @@
+@import "../../styles/variables";
+
+.about-section {
+  background: var(--background-color);
+  color: var(--text-color);
+  padding: 4rem 2rem; 
+  text-align: center;
+  border-radius: 12px; 
+  box-shadow: 0 4px 20px var(--box-shadow-color);
+  max-width: 2000px; 
+  margin: 4rem auto; 
+  width: 90%; 
+}
+
+.about-content h2 {
+  font-size: 2.8rem;
+  margin-bottom: 2rem; 
+  color: var(--primary-color);
+  text-transform: uppercase; 
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem; 
+  color: var(--text-color);
+}
+
+.skills-list {
+  list-style: none; 
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.skills-list li {
+  background-color: var(--primary-color);
+  color: white;
+  margin: 0.5rem; 
+  padding: 10px 15px; 
+  border-radius: 20px; 
+  font-size: 1rem;
+  transition: background-color 0.3s ease; 
+}
+
+.skills-list li:hover {
+  background-color: var(--hover-color);
+}
+
+.contact-link {
+  color: var(--primary-color);
+  transition: color 0.3s ease; 
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: var(--hover-color);
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-content h2 {
+    font-size: 2rem; 
+  }
+
+  .about-content p {
+    font-size: 1rem; 
+  }
+
+  .skills-list li {
+    font-size: 0.9rem; 
+  }
+}
