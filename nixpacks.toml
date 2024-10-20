@@ -12,3 +12,5 @@ commands = [
 commands = [
     "npm run serve" # Serve the app for development
 ]
+[build]
+node_version = "20.18.0"
