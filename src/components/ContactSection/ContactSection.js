@@ -66,7 +66,7 @@ export default {
                 }, 10000);
             } catch (error) {
                 console.error('Failed to send message:', error);
-                alert('Error sending message, please try again.' + serviceID + " " + templateID + " " + userID);
+                alert('Error sending message, please try again.');
             }
         }
     },
