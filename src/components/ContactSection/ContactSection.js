@@ -45,9 +45,9 @@ export default {
             if (!this.validateFields()) {
                 return; // Stop if validation fails
             }
-            const serviceID = process.env.SERVICE_ID;
-            const templateID = process.env.TEMPLATE_ID;
-            const userID = process.env.USER_ID;
+            const serviceID = process.env.VUE_APP_SERVICE_ID;
+            const templateID = process.env.VUE_APP_TEMPLATE_ID;
+            const userID = process.env.VUE_APP_USER_ID;
 
             const params = {
                 name: this.name,
@@ -64,9 +64,6 @@ export default {
                 setTimeout(() => {
                     this.messageSent = false;
                 }, 10000);
-                console.log(serviceID)
-                console.log(templateID);
-                console.log(userID);
             } catch (error) {
                 console.error('Failed to send message:', error);
                 alert('Error sending message, please try again.' + serviceID + " " + templateID + " " + userID);
