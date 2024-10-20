@@ -69,7 +69,7 @@ export default {
                 console.log(userID);
             } catch (error) {
                 console.error('Failed to send message:', error);
-                alert('Error sending message, please try again.');
+                alert('Error sending message, please try again.' + serviceID + " " + templateID + " " + userID);
             }
         }
     },
