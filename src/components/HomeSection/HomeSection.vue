@@ -11,7 +11,7 @@
             </p>
             <br>
             <a href="#about" class="cta-button smooth-link">About Me</a>
-            <a href="https://nextcloud-zo0ww4sokwgo80w80sg80k8c.rahulojha.in/s/T2p79YSkngYMb8Y" target="_blank" class="cta-button">Resume</a>
+            <a href="https://nextcloud-zo0ww4sokwgo80w80sg80k8c.rahulojha.in/s/tFsEHcoDMMe9Bja" target="_blank" class="cta-button">Resume</a>
             <div class="social-links">
                 <a href="https://github.com/rahul-ojha-07" target="_blank"><i class="fab fa-github"></i>GitHub</a>
                 <a href="https://www.linkedin.com/in/rahulojha07" target="_blank"><i
