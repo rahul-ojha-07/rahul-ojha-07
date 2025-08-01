@@ -3,6 +3,7 @@ export interface PersonalData {
   title: string[];
   about: string;
   photo: string;
+  photo2: string;
   contact: {
     email: string;
     location: string;

@@ -334,6 +334,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
                 <Image
                   src={logo}
                   alt={`${job.company} logo`}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   fill
                   className="object-contain rounded-lg p-2 bg-white shadow-sm"
                   onError={() => setImageError(true)}

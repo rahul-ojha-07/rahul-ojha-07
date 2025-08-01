@@ -1,21 +1,22 @@
 {
-    "name": "Jhon Doe",
+    "name": "Rahul Ojha",
     "title": [
         "Software Engineer",
         "Java Developer",
         "Backend Developer"
     ],
-    "about": "I'm Jhon, a passionate developer with a love for problem solving. Here, you'll get a glimpse into my journey, projects, and the skills I bring to the table.",
+    "about": "I'm Rahul, a passionate developer with a love for problem solving. Here, you'll get a glimpse into my journey, projects, and the skills I bring to the table.",
     "photo": "/photo.jpg",
+    "photo2": "/photo2.jpg",
     "contact": {
-        "email": "jhon.doe@gmail.com",
-        "location": "Austin, TX",
-        "phone": "",
+        "email": "rahulojha1097@gmail.com",
+        "location": "Bengaluru, KA, India",
+        "phone": "+91 70037 17052",
         "social": {
-            "linkedin": "https://linkedin.com/in/yourprofile",
-            "github": "https://github.com/yourusername",
-            "twitter": "https://twitter.com/yourusername",
-            "personalWebsite": "https://yourwebsite.com",
+            "linkedin": "https://linkedin.com/in/rahulojha07",
+            "github": "https://github.com/rahul-ojha-07",
+            "twitter": "https://x.com/rahul_ojha_07",
+            "personalWebsite": "https://rahulojha.in",
             "other": []
         }
     },
@@ -25,7 +26,7 @@
         "skills": true,
         "experience": true,
         "projects": true,
-        "testimonials": true,
+        "testimonials": false,
         "contact": true
     },
     "skills": [
@@ -64,22 +65,22 @@
             "skills": [
                 {
                     "name": "Java",
-                    "level": 95,
+                    "level": 85,
                     "years": "5+ years"
                 },
                 {
                     "name": "Spring Boot",
-                    "level": 92,
+                    "level": 80,
                     "years": "4+ years"
                 },
                 {
                     "name": "REST API",
-                    "level": 90,
+                    "level": 70,
                     "years": "4+ years"
                 },
                 {
                     "name": "Microservices",
-                    "level": 88,
+                    "level": 65,
                     "years": "3+ years"
                 }
             ]
@@ -89,24 +90,14 @@
             "color": "text-purple-500",
             "skills": [
                 {
-                    "name": "TypeScript",
-                    "level": 87,
-                    "years": "3+ years"
+                    "name": "HTML",
+                    "level": 75,
+                    "years": "1+ years"
                 },
                 {
-                    "name": "Next.js",
-                    "level": 84,
-                    "years": "2+ years"
-                },
-                {
-                    "name": "React",
-                    "level": 89,
-                    "years": "3+ years"
-                },
-                {
-                    "name": "Tailwind CSS",
-                    "level": 91,
-                    "years": "2+ years"
+                    "name": "CSS",
+                    "level": 65,
+                    "years": "1+ years"
                 }
             ]
         },
@@ -116,17 +107,27 @@
             "skills": [
                 {
                     "name": "PostgreSQL",
-                    "level": 87,
+                    "level": 80,
+                    "years": "4+ years"
+                },
+                {
+                    "name": "MySQL",
+                    "level": 80,
                     "years": "4+ years"
                 },
                 {
                     "name": "MongoDB",
-                    "level": 80,
+                    "level": 70,
                     "years": "2+ years"
                 },
                 {
+                    "name": "Couchbase",
+                    "level": 70,
+                    "years": "3+ years"
+                },
+                {
                     "name": "Elasticsearch",
-                    "level": 75,
+                    "level": 60,
                     "years": "2+ years"
                 }
             ]
@@ -137,23 +138,23 @@
             "skills": [
                 {
                     "name": "Docker",
-                    "level": 50,
+                    "level": 75,
                     "years": "3+ years"
                 },
                 {
                     "name": "Kubernetes",
-                    "level": 78,
-                    "years": "2+ years"
+                    "level": 70,
+                    "years": "3+ years"
                 },
                 {
                     "name": "Git",
-                    "level": 93,
+                    "level": 90,
                     "years": "5+ years"
                 },
                 {
                     "name": "Jenkins",
-                    "level": 72,
-                    "years": "2+ years"
+                    "level": 70,
+                    "years": "3+ years"
                 }
             ]
         }
@@ -168,76 +169,75 @@
         "Podman",
         "Minikube",
         "Postman",
-        "Swagger UI"
+        "Swagger UI",
+        "Cassandra"
     ],
     "projects": [
         {
-            "name": "Smart Task Manager API",
-            "description": "A robust REST API for task management supporting CRUD, role-based auth, and analytics.",
+            "name": "OpenAi Demo",
+            "description": "This Java application serves as a demonstration of how to effectively use the OpenAI API. It provides users with a clear example of integrating and utilizing the API for various tasks.",
             "technologies": [
-                "Java",
-                "Spring Boot",
-                "PostgreSQL",
-                "Docker"
+                "java",
+                "spring-boot",
+                "openai",
+                "chatgpt",
+                "chatgpt-api",
+                "openi-api"
             ],
             "roles": "Full Stack Backend Developer",
-            "outcomes": "Achieved 99.9% uptime with Docker/Kubernetes deployment.",
-            "github": "https://github.com/yourusername/smart-task-manager",
-            "demo": "https://deployed-url.com"
+            "outcomes": "",
+            "github": "https://github.com/rahul-ojha-07/openai-demo",
+            "demo": "https://github.com/rahul-ojha-07/openai-demo"
         },
         {
-            "name": "Cloud Native Ticket Service",
-            "description": "Microservices-based ticket booking platform, leveraging Kafka for asynchronous event processing.",
+            "name": "Excel To Json",
+            "description": "This web application allows users to upload a single-sheet Microsoft Excel file and convert it into structured JSON data. It simplifies data transformation, making it accessible for developers and data enthusiasts alike.",
             "technologies": [
                 "Java",
-                "Microservices",
-                "Kafka",
-                "MongoDB"
+                "JSON",
+                "GSON",
+                "apache-poi",
+                "Servlets"
             ],
             "roles": "Java Backend Developer",
-            "outcomes": "Decreased response latency by 80% through event-driven design.",
+            "outcomes": "",
             "github": "https://github.com/yourusername/ticket-service",
             "demo": "https://deployed-url.com"
         },
         {
-            "name": "Real-Time Chat App Backend",
-            "description": "Backend for a scalable real-time chat app with ElasticSearch indexing and JWT auth.",
-            "technologies": [
-                "Java",
-                "Spring Boot",
-                "Elasticsearch",
-                "JWT"
-            ],
+            "name": "Weather Bot Telegram",
+            "description": "This Telegram weather bot provides users with real-time weather updates for their current location and allows them to search for weather information in other locations. It offers a convenient way to stay informed about weather conditions.",
+            "technologies": ["Java", "telegram-api", "telegram-bot","spring-boot", "openweathermap-api"],
             "roles": "Backend Lead",
             "outcomes": "Scaled to 10,000+ concurrent sessions.",
-            "github": "https://github.com/yourusername/chat-app-backend",
-            "demo": "https://deployed-url.com"
+            "github": "https://github.com/rahul-ojha-07/weather-bot-telegram",
+            "demo": "https://github.com/rahul-ojha-07/weather-bot-telegram"
         }
     ],
     "companies": [
         {
-            "name": "TechCorp",
-            "logo": "/companies/techcorp.png"
+            "name": "Rakuten",
+            "logo": "/companies/rakuten.png"
         },
         {
-            "name": "SoftWareHouse",
-            "logo": "/companies/softwarehouse.png"
+            "name": "TCS",
+            "logo": "/companies/tcs.png"
         }
     ],
     "education": [
         {
-            "degree": "B.Tech in Computer Science",
-            "institute": "Your University Name",
+            "degree": "B.Tech in Information Technology",
+            "institute": "Netaji Subhash Engineering College, Garia, West Bengal",
             "period": "2016–2020"
         }
     ],
     "work": [
         {
-            "position": "Senior Software Engineer",
-            "company": "TechCorp",
+            "position": "Senior Software Engineer 1",
+            "company": "Rakuten",
             "period": "2022–Present",
-            "location": "San Francisco, CA",
-            "companyWebsite": "https://techcorp.com",
+            "location": "Bengaluru, KA, India",
+            "companyWebsite": "https://rakuten.com",
             "teamSize": 8,
             "description": "Led backend development for microservices architecture, implemented CI/CD pipelines, and mentored junior developers. Improved system performance by 40% through optimized database queries and caching strategies.",
             "achievements": [
@@ -282,11 +282,11 @@
             ]
         },
         {
-            "position": "Backend Developer",
-            "company": "SoftWareHouse",
+            "position": "Systems Engineer(Java Developer)",
+            "company": "TCS",
             "period": "2020–2022",
-            "location": "Austin, TX",
-            "companyWebsite": "https://softwarehouse.com",
+            "location": "Kolkata, WB, India",
+            "companyWebsite": "https://tcs.com",
             "teamSize": 12,
             "description": "Developed RESTful APIs using Java Spring Boot, integrated third-party services, and maintained cloud infrastructure on AWS. Collaborated with cross-functional teams to deliver features for 100K+ active users.",
             "achievements": [
@@ -466,28 +466,28 @@
             "backend developer",
             "microservices specialist"
         ],
-        "description": "Jhon Doee - Java Backend Developer, Microservices, Spring Boot, Cloud Engineering."
+        "description": "Rahul Ojha - Java Backend Developer, Microservices, Spring Boot, Cloud Engineering."
     },
     "socialLinks": [
         {
             "label": "Email",
             "icon": "FiMail",
-            "url": "mailto:you@example.com"
+            "url": "mailto:rahulojha1097@gmail.com"
         },
         {
             "label": "GitHub",
             "icon": "FiGithub",
-            "url": "https://github.com/yourusername"
+            "url": "https://github.com/rahul-ojha-07"
         },
         {
             "label": "LinkedIn",
             "icon": "FiLinkedin",
-            "url": "https://linkedin.com/in/yourprofile"
+            "url": "https://linkedin.com/in/rahulojha07"
         },
         {
             "label": "Twitter",
             "icon": "FiTwitter",
-            "url": "https://twitter.com/yourprofile"
+            "url": "https://x.com/rahul_ojha_07"
         }
     ]
 }

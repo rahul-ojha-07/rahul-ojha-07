@@ -148,7 +148,7 @@ export const About: React.FC<AboutProps> = ({ data }) => {
             <div className="relative mx-auto lg:mx-0">
               <div className="w-80 h-80 relative mx-auto">
                 <Image
-                  src={data.photo}
+                  src={data.photo2}
                   alt={data.name}
                   fill
                   className="object-cover"
